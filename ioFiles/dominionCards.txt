@@ -1,0 +1,170 @@
+Treasure, Copper, Worth $1, 0, 1, 46
+
+Treasure, Silver, Worth $2, 3, 2, 40
+
+Treasure, Gold, Worth $3, 6, 3, 30
+
+Treasure, Platinum, Worth $5, 9, 5, 12
+
+Victory, Estate, Worth 1 point at the end of the game, 2, 1, 18
+
+Victory, Duchy, Worth 3 points at the end of the game, 5, 3, 12
+
+Victory, Province, Worth 6 points at the end of the game, 8, 6, 8
+
+Victory, Colony, Worth 10 points at the end of the game, 11, 10, 8
+
+Treasure-Victory, Harem, Worth 2 points at the end of the game and $2, 6, 2, 10
+
+Treasure, Hoard, Worth $2; If you buy a victory card while this is in play then you also gain a
+Gold, 6, 2, 10
+
+Treasure, Talisman, Worth $1; If you buy a non-victory card costing 4 or less while this is in play
+then you gain a copy of it, 4, 1, 10
+
+Curse, Curse, Minus 1 point at the end of the game, 0, -1, 10
+
+Action, Adventurer, Reveal cards from your deck until you reveal 2 Treasure cards. Put those
+ Treasure cards in your hand and discard the other revealed cards, 6, 0, 10
+
+Action-Attack, Ambassador, Reveal a card from your hand. Return up to 2 copies of it from your hand
+ to the Supply. Then each other player gains a copy of it, 3, 0, 10
+
+Action-Attack, Bandit, Gain a gold. Each other player reveals the top 2 cards of their deck then
+trashes a revealed treasure other than copper and discards the rest, 5, 0, 10
+
+Action, Baron, +1 Buy; You may discard an Estate for +$4. If you don't gain an Estate, 4, 0, 10
+
+Action, Bishop, +$1; +1 victory point token; Trash a card from your hand. Gain a number of victory
+point tokens equal to half its cost in coins (rounded down). Each other player may trash a card from
+ their hand, 4, 0, 10
+
+Action, Bridge, +1 Buy; +$1; Cards everywhere this turn cost $1 less but no less than $0, 4, 0, 10
+
+Action, Border Village, +1 Card; +2 Actions; Gain a cheaper card when you gain this, 6, 0, 10
+
+Action-Attack, Bureaucrat, Gain a silver card; put it on top of your deck. Each other player reveals
+ a Victory card from his hand and puts it on his deck (or reveals a hand with no Victory cards), 4,
+ 0, 10
+
+Action, Cellar, +1 Action; Discard any number of cards and draw 1 new card per card discarded, 2, 0,
+10
+
+Action, Chancellor, +$2; You may immediately put your deck into your discard pile, 3, 0, 10
+
+Action, Chapel, Trash up to 4 cards from your hand, 2, 0, 10
+
+Action, Council Room, +4 Cards; +1 Buy; Each other player draws a card, 5, 0, 10
+
+Action, Counting House, Look through your discard pile and reveal any number of Copper cards from it
+. You may put them into your hand, 5, 0, 10
+
+Action, Feast, Trash this card. Gain a card costing up to $5, 4, 0, 10
+
+Action, Festival, +2 Actions; +1 Buy; +$2, 5, 0, 10
+
+Action, Gardens, Worth 1 victory point for every 10 cards in your deck at the end of the game
+(rounded down), 4, 0, 10
+
+Action-Attack, Goons, +1 Buy; +$2; Each other player discards down to 3 cards in hand. While this is
+ in play and you buy a card you also get a victory point token, 6, 0, 10
+
+Action, Harbinger, +1 Card; +1 Action; Look through your discard pile. You may put a card from it
+ onto your deck, 3, 0, 10
+
+Action, Junk Dealer, +1 Card; +1 Action; +$1; Trash a card from your hand, 5, 0, 10
+
+Action, King's Court, You may play an action card from your hand 3 times, 7, 0, 10
+
+Action, Laboratory, +2 Cards; +1 Action, 5, 0, 10
+
+Action, Library, Draw until you have 7 cards in hand. You may set aside any Action cards drawn this
+ way as you draw them; discard the set aside cards after you finish drawing, 5, 0, 10
+
+Action, Menagerie, +1 Action; Reveal your hand. If the revealed cards all have different names you
+ get +3 Cards. Otherwise you get +1 Card, 3, 0, 10
+
+Action, Market, +1 Card; +1 Action; +1 Buy; +$1, 5, 0, 10
+
+Action, Merchant, +1 Card; +1 Action; The first time you play a silver this turn you get +$1, 3, 0,
+ 10
+
+Action-Attack, Militia, +$2; Each other player discards down to 3 cards in his hand, 4, 0, 10
+
+Action-Victory, Mill, Worth 1 point at the end of the game. +1 Card; +1 Action; You may discard 2
+cards for +$2, 4, 1, 10
+
+Action, Mine, Trash a Treasure card from your hand. Gain a Treasure card costing up to $3 more; put
+ it into your hand, 5, 0, 10
+
+Action, Mining Village, +1 Card; +2 Actions; You may trash this for +$2, 4, 0, 10
+
+Action-Reaction, Moat, +2 Cards; When another player plays an Attack card you may reveal this from
+ your hand. If you do you are unaffected by that Attack, 2, 0, 10
+
+Action, Moneylender, Trash a Copper from your hand. If you do you get +$3, 4, 0, 10
+
+Action, Monument, +$2; +1 point token, 4, 0, 10
+
+Action-Attack, Mountebank, +$2; Each other player may discard a curse. If they don't they gain a
+ curse and a copper, 5, 0, 10
+
+Action, Pawn, Choose 2: +1 Card; +1 Action; +1 Buy; +$1. The choices must be different, 2, 0, 10
+
+Action, Peddler, +1 Card; +1 Action; +$1; During your buy phase this costs $2 less per Action card
+you have in play but not less than 0, 8, 0, 10
+
+Action, Poacher, +1 Card; +1 Action; +$1; Discard a card per empty supply pile, 4, 0, 10
+
+Action, Remake, Do this twice: Trash a card from your hand then gain a card costing exactly $1 more
+ than it, 4, 0, 10
+
+Action, Remodel, Trash a card from your hand. Gain a card costing up to $2 more than the trashed
+ card, 4, 0, 10
+
+Action, Sentry, Look at the top 2 cards of your deck. Trash and/or discard any number of them. Put
+ the rest back on top in any order, 5, 0, 10
+
+Action, Shanty Town, +2 Actions; Reveal your hand. If you have no Action cards in hand you get +2
+cards, 3, 0, 10
+
+Action, Smithy, +3 cards, 4, 0, 10
+
+Action-Attack, Spy, +1 Card; +1 Action; Each player (including you) reveals the top card of his deck
+ and either discards it or puts it back (your choice), 4, 0, 10
+
+Action, Steward, Choose 1: +2 Cards; or +$2; or trash 2 cards from your hand, 3, 0, 10
+
+Action-Attack, Thief, Each other player reveals the top 2 cards of his deck. If they revealed any
+ Treasure cards then they trash one of them that you choose. You may gain this trashed card. They
+ discard the other revealed cards, 4, 0, 10
+
+Action, Throne Room, Choose an Action card in your hand. Play it twice, 4, 0, 10
+
+Action-Attack, Torturer, +3 Cards; Each other player either discards 2 cards or gains a curse (they
+may pick an option they can't do), 5, 0, 10
+
+Action, Upgrade, +1 Card; +1 Action. Choose a card from your hand to trash. Gain a card costing
+exactly $1 more than it, 5, 0, 10
+
+Action, Vassal, +$2; Discard the top card of your deck. If it's an action card you may play it, 3,
+ 0, 10
+
+Action, Vault, +2 Cards; Discard any number of cards for +$1 each. Each other player may discard 2
+cards to draw a card, 5, 0, 10
+
+Action, Village, +1 Card; +2 Actions, 3, 0, 10
+
+Action, Wandering Minstrel, +1 Card; +2 Actions; Reveal the top 3 cards of your deck. Put the
+ action cards back in any order and discard the rest, 4, 0, 10
+
+Action-Reaction, Watchtower, Draw until you have 6 cards in hand. When you gain a card you may
+reveal this from your hand to either trash that card or put it onto your deck, 3, 0, 10
+
+Action-Duration, Wharf, Now and at the start of your next turn you get +2 Cards and +1 Buy, 5, 0, 10
+
+Action-Attack, Witch, +2 Cards; Each other player gains a Curse card, 5, 0, 10
+
+Action, Woodcutter, +1 Buy; +$2, 3, 0, 10
+
+Action, Workshop, Gain a card costing up to $4, 3, 0, 10
