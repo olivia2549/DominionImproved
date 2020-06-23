@@ -153,6 +153,7 @@ public class GameManager {
 
     public void generateRandom() {
         Random rand = new Random();
+        rand.setSeed(2797);
 
         int randNum = rand.nextInt(kingdomCards.size());
         for (int i=0; i<10; ++i) {
@@ -161,7 +162,7 @@ public class GameManager {
                 randNum = rand.nextInt(kingdomCards.size());
                 name = kingdomCards.get(randNum).getName();
             }
-            cardsInMiddle.add(findCard(kingdomCards.get(randNum).getName()));
+            cardsInMiddle.add(findCard(kingdomCards.get(randNum).getName(), allCards));
             randNum = rand.nextInt(kingdomCards.size());
         }
     }

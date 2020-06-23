@@ -12,8 +12,6 @@ public class Dominion {
         loadCards(fileScan, gameManager);
 
         Scanner scnr = new Scanner(System.in);
-        Random rand = new Random();
-        rand.setSeed(2797);
 
         boolean usingProsperity = setup(scnr, gameManager);
 
