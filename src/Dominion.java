@@ -59,8 +59,6 @@ public class Dominion {
                 "Village", "Witch", "Woodcutter", "Workshop")));
         dominionSets.add(new ArrayList<>(Arrays.asList("Bureaucrat", "Cellar", "Festival", "Library", "Market", "Remodel",
                 "Smithy", "Throne Room", "Village", "Woodcutter")));
-        dominionSets.add(new ArrayList<>(Arrays.asList("Bureaucrat", "Cellar", "Festival", "Library", "Market", "Remodel",
-                "Smithy", "Throne Room", "Village", "Woodcutter")));
         dominionSets.add(new ArrayList<>(Arrays.asList("Baron", "Harem", "Pawn", "Shanty Town", "Upgrade", "Bishop",
                 "Counting House", "Goons", "Monument", "Peddler")));
         dominionSets.add(new ArrayList<>(Arrays.asList("Hoard", "Talisman", "Bishop", "Vault", "Watchtower", "Bridge", "Mill",

@@ -308,15 +308,6 @@ public class GameManager {
      */
     public void specialGains(Scanner scnr, Card cardGained) {
         checkWatchtower(scnr, cardGained);
-        checkBorderVillage(scnr, cardGained);
-    }
-
-    public void checkBorderVillage(Scanner scnr, Card cardGained) {
-        if (cardGained.getName().equals("Border Village")) {
-            System.out.println("You may also gain a cheaper card.");
-            Card borderVillageGain = printOptions(scnr, cardsInMiddle, "Border Village", 5);
-            gainCard(scnr, borderVillageGain);
-        }
     }
 
     public void checkWatchtower(Scanner scnr, Card cardGained) {
@@ -397,11 +388,11 @@ public class GameManager {
                 // Decrease the buys and money left for this turn
                 stats.changeBuys(-1);
                 stats.changeMoney(cardBought.getCost()*-1);
-
-                addPrices();    // Put prices back to normal
             } else {
                 System.out.println("Buy cancelled.\n");
             }
+
+            addPrices();    // Put prices back to normal
 
             System.out.println();
             printStats();
@@ -419,6 +410,14 @@ public class GameManager {
         checkHoard(scnr, cardBought);
         checkEndingVictory(cardBought, usingProsperity);
         checkTalisman(scnr, cardBought);
+    }
+
+    public void checkBorderVillage(Scanner scnr, Card cardGained) {
+        if (cardGained.getName().equals("Border Village")) {
+            System.out.println("You may also gain a cheaper card.");
+            Card borderVillageGain = printOptions(scnr, cardsInMiddle, "Border Village", 5);
+            gainCard(scnr, borderVillageGain);
+        }
     }
 
     public void checkGoons() {
@@ -823,18 +822,16 @@ public class GameManager {
                 String optionStr = scnr.nextLine();
                 int choice = getValidDigit(scnr, optionStr, 2);
                 if (choice == 1) {
-                    System.out.println("Trashing the " + topCard.getName() + " card...");
-                    System.out.println("Discarding the " + secondCard.getName() + " card...");
-                    discardPile.add(secondCard);
+                    trashCard(drawPile, topCard, false);
+                    discardCard(drawPile, secondCard, false);
                 } else {
-                    System.out.println("Trashing the " + secondCard.getName() + " card...");
-                    System.out.println("Discarding the " + topCard.getName() + " card...");
-                    discardPile.add(topCard);
+                    trashCard(drawPile, secondCard, false);
+                    discardCard(drawPile, topCard, false);
                 }
             } else {
                 System.out.println("Neither is a treasure card other than copper. Discarding them both...");
-                discardPile.add(topCard);
-                discardPile.add(secondCard);
+                discardCard(drawPile, topCard, false);
+                discardCard(drawPile, secondCard, false);
             }
             System.out.println("Done.");
         }
